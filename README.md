@@ -22,12 +22,12 @@ Tools for running mms-agent on Ubuntu
 
 Presently we have:
 
-# Upstart Script
+## Upstart Script
 * This is known to work at least on Ubuntu 12's upstart, version 1.5.
 * Drop into /etc/init to have mms-agent started on boot and restarted whenever required.  Logging goes to /var/log/upstart/ or to /var/log/syslog.
 * Assumes a dedicated user has been setup to run the agent
 
-# Ubuntu Packaging Files
+## Ubuntu Packaging Files
 Drop the contents of the latest & greatest mms-agent into opt/mongo-mms-agent/ and then you can build them into a package with:
 
     dpkg-deb --build mongo-mms-agent_1.0-5
