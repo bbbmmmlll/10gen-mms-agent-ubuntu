@@ -1,0 +1,14 @@
+Package: mongo-mms-agent
+Version: 1.0-5
+Section: devel
+Priority: optional
+Homepage: http://www.10gen.com/mongodb-monitoring-service
+Architecture: all
+Depends: python-pymongo
+Maintainer: Alex Hewson <alex@payperks.com>
+Description: MongoDB Monitoring Service is a publicly available SaaS solution for 
+ proactive monitoring of your MongoDB cluster. MMS’s web interface features
+ charts, custom dashboards, and automated alerting; and since it runs in the
+ cloud, MMS requires minimal setup and configuration. Within minutes your
+ devops and systems administration teams can manage and optimize your MongoDB
+ deployment, and derive valuable insights from key operational metrics.
