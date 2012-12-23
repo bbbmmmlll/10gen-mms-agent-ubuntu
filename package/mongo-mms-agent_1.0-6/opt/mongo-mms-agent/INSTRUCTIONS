@@ -1,5 +1,0 @@
-Drop files for latest version of MMS-agent into here to build them into a package.
-
-Note that auto-updating should be turned off; otherwise when the the agent is updated it'll cease to match the package's checksums and alarms will (should!) ring.
-
-
