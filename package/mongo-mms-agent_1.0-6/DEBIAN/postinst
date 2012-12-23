@@ -11,6 +11,6 @@ fi
 # Create the mongomms user
 if ! grep -q 'mongomms' /etc/passwd
 then
-    useradd -u 510 -g 510 -d /var/run/mongo-mms-agent -s /bin/false mongomms
+    useradd -u 510 -g 510 -d /opt/mongo-mms-agent -s /bin/false mongomms
 fi
 

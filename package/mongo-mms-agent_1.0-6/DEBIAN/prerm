@@ -11,5 +11,5 @@ fi
 rm -rf /var/run/mongo-mms-agent/*
 
 # Remove .pyc files so apt will remove empty /opt/mongo-mms-agent
-rm -f /opt/mongo-mms-agent/*.pyc
+find /opt/mongo-mms-agent/ -iname '*.pyc' -delete
 
