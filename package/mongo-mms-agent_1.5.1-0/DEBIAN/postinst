@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+# Create the mongomms group
+if ! grep -q 'mongomms' /etc/group
+then
+    groupadd -g 510 mongomms
+fi
+
+
+# Create the mongomms user
+if ! grep -q 'mongomms' /etc/passwd
+then
+    useradd -u 510 -g 510 -d /opt/mongo-mms-agent -s /bin/false mongomms
+fi
+
