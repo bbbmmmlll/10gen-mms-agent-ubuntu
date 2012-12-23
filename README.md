@@ -30,7 +30,7 @@ Presently we have:
 ## Ubuntu Packaging Files
 Drop the contents of the latest & greatest mms-agent into opt/mongo-mms-agent/ and then you can build them into a package with:
 
-    dpkg-deb --build mongo-mms-agent_1.0-5
+    dpkg-deb --build mongo-mms-agent_1.0-6
 
 It's best to leave your api & secret keys out and add them upon installation.
 
