@@ -1,5 +1,4 @@
 
-
 10gen-mms-agent-ubuntu
 ======================
 
@@ -27,8 +26,8 @@ Potential improvements:
 * Prompt on attented dpkg installations for api & secret keys 
 * Version with debian-friendly init script
 
-License
-======================
+##License
+
     Copyright 2012 PayPerks Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
