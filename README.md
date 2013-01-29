@@ -26,7 +26,7 @@ Potential improvements:
 * Version with debian-friendly init script
 
 ##History
-* Originally created by Alex Hewson (alex@payperks.com, user:alexmbird)
+* Originally created by Alex Hewson (alex@payperks.com, user: alexmbird )
 
 ##License
 
